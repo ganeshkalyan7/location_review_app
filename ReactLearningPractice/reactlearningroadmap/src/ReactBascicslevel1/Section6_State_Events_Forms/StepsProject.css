@@ -1,0 +1,39 @@
+.stepsContainer {
+  width: 800px;
+  height: 400px;
+  background-color: #e9ecef;
+  border-radius: 30px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 4px;
+}
+
+.step {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ced4da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.active {
+  background-color: #7048e8;
+  color: #fff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.button {
+  border-radius: 50px;
+  background-color: #7048e8;
+  color: #fff;
+}

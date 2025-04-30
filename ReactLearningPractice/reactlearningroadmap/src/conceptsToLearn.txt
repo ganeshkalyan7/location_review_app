@@ -1,0 +1,38 @@
+1:- PropDrilling
+        prop drilling means that we need to pass some prop through several nested child components,
+        in order to get that data into some  deeply  nested component.
+
+        eg:-App(){
+            const data=[{name:"ganesh",age:26,designation:"developer"}]
+            <Nav/>
+            <main dataVal={data}/>
+        } 
+
+         Main({dataVal}){
+            <moviesList dataVal={dataVal}/>
+            <wathedList/>
+         }
+         
+         moviesList({dataVal}){
+            return(
+                <div> 
+                {
+                    dataVal.map((movies)=>( 
+                        <Movies dataVal={movies}/>
+                    ))
+                }
+                </div>
+            )
+
+         }
+
+         Movies({dataVal}){
+            return( 
+                <div> 
+                <p> {dataVal.name}</p>
+                <p> {dataVal.age}</p>
+                <p> {dataVal.designation}</p>
+                </div>
+            )
+
+         }

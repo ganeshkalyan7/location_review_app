@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Quicksand:wght@500;700&display=swap");
+
+.LogoForm {
+  width: 100vw;
+  background-color: #f4a226;
+  font-family: "Monoton";
+  text-align: center;
+  letter-spacing: 3rem;
+  text-transform: uppercase;
+}
+
+.form {
+  background-color: #e5771f;
+}
+
+.itemlist {
+  background-color: #5a3e2b;
+  color: #fff;
+}
+.ListItems {
+  display: flex;
+}
+
+/* .statscontainer {
+  position: relative;
+} */
+.stats {
+  width: 100vw;
+  position: absolute;
+  background-color: #76c7ad;
+  bottom: 0px;
+}

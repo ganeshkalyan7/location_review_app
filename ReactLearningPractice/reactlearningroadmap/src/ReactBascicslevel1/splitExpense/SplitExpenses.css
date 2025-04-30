@@ -1,0 +1,101 @@
+.listoffriends {
+  width: 400px;
+  /* margin: 2rem 30rem; */
+  /* background-color: aqua; */
+}
+.friends {
+  margin: 3rem 1rem;
+  padding: 2rem 1rem;
+  /* width: 400px; */
+  /* background-color: #ffe8cc; */
+  box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+
+.selected-friends {
+  margin: 3rem 1rem;
+  padding: 2rem 1rem;
+  background-color: #ffe8cc;
+  /* box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.1); */
+  border-radius: 1rem;
+  /* display: flex; */
+}
+
+.friendsList {
+  display: flex;
+  /* height: 50px; */
+  justify-content: space-between;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.fiendslist-left {
+  display: flex;
+  gap: 3rem;
+}
+.image {
+  width: 50px;
+}
+.name {
+  font-size: 2.5rem;
+  color: #000;
+}
+.balance {
+  font-size: 1.6rem;
+  color: #000;
+}
+.clickbuttons {
+  width: max-content;
+  height: 30px;
+  display: flex;
+  padding: 1rem 2rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #f76707;
+  color: #000;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.addnewfriend {
+  background-color: #ffe8cc;
+  width: 400px;
+  padding: 3rem 1rem;
+  margin: 3rem 1rem;
+  border-radius: 10px;
+}
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+label {
+  color: #000;
+  font-size: 2rem;
+}
+.splitform {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.splitBill {
+  background-color: #fff4e6;
+  padding: 3rem 5rem;
+  border-radius: 15px;
+}

@@ -1,0 +1,3 @@
+//---------------------props------------//
+1-> props is data coming from the parents component and can only be upadetd by the parent component
+2-> props are read only they are immutable which means we cant update the props if at all it needs be changed the the actual state has to change in parent component than the props gets upadted

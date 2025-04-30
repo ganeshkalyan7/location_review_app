@@ -1,0 +1,24 @@
+.pizza {
+  background-color: blanchedalmond;
+  border-radius: 30px;
+  list-style: none;
+  display: flex;
+}
+.pizza:hover {
+  background-color: burlywood;
+}
+
+.souldout {
+  background-color: blanchedalmond;
+  color: gray;
+}
+
+img {
+  width: 150px;
+  border-radius: 30px;
+}
+.souldout img {
+  width: 150px;
+  filter: grayscale();
+  opacity: 0.8;
+}

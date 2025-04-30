@@ -1,0 +1,48 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4263eb;
+  padding: 2rem 5rem;
+  color: #fff;
+}
+.input {
+  height: 5rem;
+  width: 40rem;
+  background-color: #5c7cfa;
+  outline: none;
+  border: 1px solid #5c7cfa;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10rem;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 3rem;
+}
+
+.moviesList {
+  width: 60rem;
+  box-shadow: 0 0 10px 0.5px rgba(0, 0, 0, 0.1);
+}
+
+.movie {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: 2rem 3rem;
+  border-bottom: 1px solid #dee2e6;
+  /* background-color: #5c7cfa; */
+  /* box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.poster {
+  width: 10rem;
+  border-radius: 0rem;
+}
+
+.togglebutton {
+  cursor: pointer;
+  text-align: end;
+}

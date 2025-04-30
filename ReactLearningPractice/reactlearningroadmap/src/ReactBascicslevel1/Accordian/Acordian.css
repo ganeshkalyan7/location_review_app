@@ -1,0 +1,56 @@
+.accordian {
+  margin: 3rem 10rem;
+}
+.accordianclose {
+  display: flex;
+  cursor: pointer;
+  /* height: 8rem; */
+  justify-content: space-around;
+  margin: 10rem 0rem;
+  /* align-items: center; */
+  /* gap: 3rem; */
+  background-color: #f8f9fa;
+  box-shadow: 1rem 1rem 1rem 0.3rem rgba(0, 0, 0, 0.2);
+}
+.num {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: gray;
+}
+.heading {
+  font-size: 3.5rem;
+  color: #343a40;
+  font-weight: 600;
+}
+.content {
+  font-size: 2rem;
+  /* display: flex;
+  justify-content: center; */
+  padding: 1rem 0rem;
+  width: 70rem;
+}
+.icon {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.heading-open {
+  font-size: 3.5rem;
+  color: #099268;
+  font-weight: 600;
+}
+
+.num-open {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #099268;
+}
+
+.accordian-open {
+  border-top: 3px solid #099268;
+  display: flex;
+  /* height: 8rem; */
+  justify-content: space-around;
+  box-shadow: 1rem 1rem 1rem 0.3rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
