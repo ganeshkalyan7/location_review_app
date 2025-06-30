@@ -5,6 +5,7 @@ import SplitingBill from "./SplitingBill";
 import "./SplitExpenses.css";
 
 function Friends() {
+  console.log("RENDER");
   const initialFriends = [
     {
       id: 118836,
@@ -104,7 +105,11 @@ function Friends() {
           {/* <Button onClick={onFriendAdd}>Add friend</Button> */}
         </div>
         {seletedFriend && (
-          <SplitingBill onSelect={seletedFriend} onBillSubmit={ButtonSubmitt} />
+          <SplitingBill
+            onSelect={seletedFriend}
+            onBillSubmit={ButtonSubmitt}
+            // key={seletedFriend.id}
+          />
         )}
       </div>
       {addForm && (

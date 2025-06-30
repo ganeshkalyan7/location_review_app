@@ -33,10 +33,14 @@
   gap: 4rem;
   padding: 2rem 3rem;
   border-bottom: 1px solid #dee2e6;
+  cursor: pointer;
   /* background-color: #5c7cfa; */
   /* box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.1); */
 }
 
+.movie:hover {
+  background-color: #e9ecef;
+}
 .poster {
   width: 10rem;
   border-radius: 0rem;

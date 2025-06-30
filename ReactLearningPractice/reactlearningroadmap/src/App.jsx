@@ -8,6 +8,8 @@ import TipCalculator from "./ReactBascicslevel1/TipCalculator/TipCalculator";
 // import Friends from "./splitExpense/Friends";
 import Friends from "./ReactBascicslevel1/splitExpense/Friends";
 import MainApp from "./ReactIntermediateLevel2/mainApp";
+import Nav from "./ReactBascicslevel1/Nav";
+import CurrencyConversion from "./ReactIntermediateLevel2/CuurencyConversion/CurrencyConversion";
 
 //import "./App.css";
 
@@ -25,6 +27,7 @@ function App() {
       {/* <Friends /> */}
 
       <MainApp />
+      {/* <CurrencyConversion /> */}
     </>
   );
 }
