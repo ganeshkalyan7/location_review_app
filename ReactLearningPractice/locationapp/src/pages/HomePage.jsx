@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import styles from "./Home.module.css";
 import { Link } from "react-router-dom";
 import Nav from "../components/Nav";
@@ -19,7 +19,7 @@ function HomePage() {
           you have wandered the world.
         </h2>
 
-        <Link to="/login" className="cta">
+        <Link to="/Applayout" className="cta">
           Start tracking now
         </Link>
       </section>

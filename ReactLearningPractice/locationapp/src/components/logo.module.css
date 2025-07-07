@@ -1,36 +1,9 @@
 .logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-}
-.logo img {
-  width: 5rem;
-}
-
-.logo p {
-  color: var(--color-light--2);
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  font-weight: 600;
+  height: 5rem;
 }
 
 @media screen and (max-width: 1024px) {
   .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.8rem;
-  }
-
-  .logo img {
-    width: 3rem;
-  }
-
-  .logo p {
-    color: var(--color-light--2);
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    font-weight: 600;
+    height: 2rem;
   }
 }

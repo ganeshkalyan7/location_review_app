@@ -1,5 +1,5 @@
 //import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styles from "./Nav.module.css";
 import Logo from "./Logo";
 
@@ -9,13 +9,15 @@ function Nav() {
       <Logo />
       <ul>
         <li>
-          <Link to="/dw">price</Link>
+          <NavLink to="/price">price</NavLink>
         </li>
         <li>
-          <Link to="/">product</Link>
+          <NavLink to="/Product">product</NavLink>
         </li>
         <li>
-          <Link to="/">login</Link>
+          <NavLink to="/Login" className="cta">
+            login
+          </NavLink>
         </li>
       </ul>
     </nav>
