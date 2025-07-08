@@ -17,7 +17,14 @@ function App() {
             <Route path="/price" element={<PriceingPage />} />
             <Route path="/product" element={<Product />} />
             <Route path="/Login" element={<Login />} />
-            <Route path="/Applayout" element={<Applayout />} />
+            {/* nested Routes */}
+            <Route path="/Applayout" element={<Applayout />}>
+              <Route index element={<p>cities</p>} />
+              <Route path="cities" element={<p>List of cities</p>} />
+              <Route path="countries" element={<p>list of contries</p>} />
+              <Route path="form" element={<p>Form</p>} />
+            </Route>
+            {/* nested Routes */}
           </Routes>
         </BrowserRouter>
       </div>
