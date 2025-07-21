@@ -10,7 +10,8 @@
 
 .appnav a {
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  font-weight: 700;
   padding: 0.5rem;
   color: aliceblue;
 }

@@ -1,8 +1,25 @@
-# React + Vite
+# location_review_app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+its a kind of location review app, where users share their there experiance in visiting the place
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- List important features (e.g.,lazyloading,API handling,map)
+- Responsive design
+- Authentication support
+
+## 🛠️ Tech Stack
+
+- React
+- vite setup
+- Tailwind CSS
+- Node.js (if backend)
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/project-name.git
+cd locationapp
+npm install
+npm run dev
+```
